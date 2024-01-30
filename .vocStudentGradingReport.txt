@@ -1,0 +1,47 @@
+
+[Executed at: Sun Dec 3 15:24:08 PST 2023]
+
+==================================================
+Correctness - Table.cpp - remove - chain with 1 passed
+==================================================
+Correctness - Table.cpp - remove - chain with more than 1 passed
+==================================================
+Correctness - Table.cpp - remove - on empty list/one not present passed
+==================================================
+Correctness - Table.cpp - lookup - chain with 1 passed
+==================================================
+Correctness - Table.cpp - lookup - chain with more than 1 passed
+==================================================
+Correctness - Table.cpp - lookup - on empty list/one not present passed
+==================================================
+Correctness - Table.cpp - lookup - can change the value that goes with the key passed
+==================================================
+Correctness - Table.cpp - insert - on empty list passed
+==================================================
+Correctness - Table.cpp - insert - on nonempty list passed
+==================================================
+Correctness - Table.cpp - insert - duplicate passed
+==================================================
+Correctness - Table.cpp - numEntries - on empty table passed
+==================================================
+Correctness - Table.cpp - numEntries - on nonempty table passed
+==================================================
+Correctness - Table.cpp - numEntries - where there exists a chain with more than 1 passed
+==================================================
+Correctness - Table.cpp - printAll - on empty table passed
+==================================================
+Correctness - Table.cpp - printAll - on nonempty table passed
+==================================================
+Correctness - Table.cpp - printAll - where there exists a chain with more than 1 failed
+==================================================
+Correctness - Table.cpp - hashStats - correct number of buckets passed
+Correctness - Table.cpp - hashStats - correct number of entries passed
+Correctness - Table.cpp - hashStats - correctly computes nonempty buckets passed
+==================================================
+Correctness - Table.cpp - hashStats - correctly computes longest chain passed
+==================================================
+Correctness - concord - works with concord (using default constructor; large data set) passed
+==================================================
+Correctness - concord - works with -s passed
+==================================================
+

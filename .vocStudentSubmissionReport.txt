@@ -1,0 +1,32 @@
+
+[Executed at: Wed Nov 29 22:06:16 PST 2023]
+
+Checking for: README listFuncs.cpp Table.cpp grades.cpp listFuncs.h Table.h
+All necessary files are present: 'README listFuncs.cpp Table.cpp grades.cpp listFuncs.h Table.h' (Passed)
+Executing command: make clean 
+rm -f concord grades pa5list concord.o Table.o listFuncs.o grades.o
+(Passed)
+Executing command: make grades 
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -c grades.cpp
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -c Table.cpp
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -c listFuncs.cpp
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -o grades grades.o Table.o listFuncs.o
+(Passed)
+Executing command: make concord 
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -c concord.cpp
+g++ -ggdb -Wall -Wno-sign-compare -std=c++11 -o concord concord.o Table.o listFuncs.o
+(Passed)
+All necessary files compiled: 'clean grades concord' (Passed)
+
+
+--------------------------------------------
+Format check: your output should be char-by-char the same as our output
+
+---------------- hashStats() ---------------
+hashStats() output format test Passed.
+
+
+---------------- printAll() ---------------
+printAll() output format test Passed.
+
+--------------- End of Report --------------
